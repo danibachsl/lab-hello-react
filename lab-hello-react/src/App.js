@@ -1,12 +1,14 @@
 import './App.css';
 import logo from './images/ironhack-logo-xs.png';
+import logo2 from './images/menu-top-xs.png';
 
 function App() {
   return (
     <div className="App">
       <div className="divAzul">
         <div className="ironLogo">
-          <img src={logo} alt="Logo" />
+          <div><img src={logo} alt="Logo" /></div>
+          <div><img src={logo2} alt="Logo" /></div>
         </div>
 
         <div className="title" style={{ fontSize: "56px" }}>
@@ -21,7 +23,7 @@ function App() {
         </div>
 
         <div className="whiteButton">
-          <button>Awesome!</button>
+          <button style={{ fontSize: "17px" }}><b>Awesome!</b></button>
         </div>
       </div>
     </div>

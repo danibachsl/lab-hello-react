@@ -4,7 +4,8 @@
 }
 
 .divAzul { 
-  background-color: #1f274b; 
+  background-color: #262b42;
+  margin: 25px 25px;
 }
 .ironLogo {
   padding: 30px 65px;
@@ -47,6 +48,23 @@
   margin: 35px;
   color: #0c2285;
   border-radius: 5px;
+}
+
+.imagesDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: stretch;
+  padding-bottom: 70px;
+}
+.imagesDiv img {
+  align-content: left;
+}
+
+.imagesDiv p {
+  color: black;
 }
 
 .App-logo {

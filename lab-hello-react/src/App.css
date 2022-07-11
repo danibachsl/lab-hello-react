@@ -57,10 +57,8 @@
 	justify-content: space-evenly;
 	align-items: flex-start;
 	align-content: stretch;
+  padding-top: 40px;
   padding-bottom: 70px;
-}
-.imagesDiv img {
-  align-content: left;
 }
 
 .imagesDiv p {

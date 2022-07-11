@@ -1,5 +1,42 @@
 .App {
-  text-align: center;
+  text-align: left;
+  color: white;
+}
+
+.divAzul { 
+  background-color: #1f274b; 
+}
+.ironLogo img {
+  padding: 30px;
+}
+
+.title {
+  padding-top: 40px;
+}
+
+.title p {
+  font-size: 1.25em;
+  padding-left: 35px;
+  margin: 0%;
+}
+
+.paragraph {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.paragraph p {
+  font-size: 20px;
+  padding-left: 35px;
+  padding-top: 15px;
+  margin: 0%;
+}
+
+.whiteButton button {
+  padding: 20px;
+  margin: 35px;
+  color: #0c2285;
+  border-radius: 5px;
 }
 
 .App-logo {
